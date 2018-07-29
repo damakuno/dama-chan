@@ -1,6 +1,5 @@
 # Dama-chan
-General purpose twitch chat bot with a UI layer built on ElectronJS.
-
+General purpose twitch chat bot with a UI layer built on ElectronJS. 
 # Setup Instructions
 
 1. Rename `config.Config` to `config.json` with the values replaced accordingly.
