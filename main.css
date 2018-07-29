@@ -1,0 +1,11 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+ul {
+    list-style-type: none;
+}
+
+.bar-chart {
+    background-color: aquamarine;
+}
