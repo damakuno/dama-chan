@@ -129,6 +129,7 @@ let modCommands = { votestart, voteend }
 function votestart(target, context, params) {
     if (pollActive) {
         sendMessage(target, context, "Please end the current poll before starting a new one.");
+        return;
     }
     if (params.length) {
         const input = params.join(' ');
@@ -259,4 +260,12 @@ function onConnectedHandler(addr, port) {
 function onDisconnectedHandler(reason) {
     console.log(`Womp womp, disconnected: ${reason}`)
     process.exit(1)
+}
+
+exports.checkPollActive = () => {
+    return pollActive;
+}
+
+exports.getActivePoll = () => {
+    return poll;
 }

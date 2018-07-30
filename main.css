@@ -9,3 +9,11 @@ ul {
 .bar-chart {
     background-color: aquamarine;
 }
+
+svg rect {
+    fill: cornflowerblue;
+}
+
+svg .result_text {
+    fill: white;    
+}
