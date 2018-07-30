@@ -9,5 +9,11 @@ General purpose twitch chat bot with a UI layer built on ElectronJS.
 5. `yaml_db_path` is the file path for the yaml file that is currently being used as a mock database. You need not create the yaml file.
 6. `osu_api` contains the `url` which is the URL for the Osu! API which might be subject to change. You can request an API key from https://osu.ppy.sh/p/api. Fill in the `api_key` with it.
 
+# Usage
+
+```
+npm start
+```
+
 # License
 Dama-chan is currently licensed under the MIT License.
